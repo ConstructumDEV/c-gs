@@ -22,7 +22,7 @@ const server = https.createServer({
   cert: combcert,
   key: combcert,
 }, rumor)
-server.listen(8000, () => console.log('SECServer running on port 8000'));
+server.listen(7000, () => console.log('SECServer running on port 8000'));
 
 const wss = new WebSocketServer({ server });
 
