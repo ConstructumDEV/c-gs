@@ -1,7 +1,6 @@
-# rumor
-the rumor project 
+# c-gs
+
+constructum gameserver
 
 
-wss://rumor.reedsite.net
-
-https://rumor.reedsite.net/robots.txt
+wss://cgs.reedsite.net
