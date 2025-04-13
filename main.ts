@@ -2,7 +2,6 @@
 import express from "npm:express";
 import { WebSocketServer } from "npm:ws";
 const rumor = express();
-import api from "./api.ts";
 import fs from "node:fs";
 import path from "node:path";
 import os from "node:os";
@@ -53,7 +52,5 @@ rumor.get("/robots.txt", (_req, res) => {
     // nothing
    }
 });
-
-//let oldwsglobal = "none"
 
 console.log("cgs online and ready!");
