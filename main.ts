@@ -22,7 +22,7 @@ const server = https.createServer({
   cert: combcert,
   key: combcert,
 }, rumor)
-server.listen(7000, () => console.log('SECServer running on port 8000'));
+server.listen(7443, () => console.log('SECServer running on port 7443'));
 
 const wss = new WebSocketServer({ server });
 
@@ -67,5 +67,5 @@ app.get("/", (_req, res) => {
 });
 //let oldwsglobal = "none"
 
-webserver.listen(8443); // web
+webserver.listen(6443); // web
 console.log("RUMOR online and ready!");
